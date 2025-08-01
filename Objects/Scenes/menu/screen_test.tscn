@@ -1,0 +1,63 @@
+[gd_scene load_steps=10 format=3 uid="uid://bnxuu0j3aoskr"]
+
+[ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="1_bgimb"]
+[ext_resource type="Script" uid="uid://be18fwccrp68e" path="res://Objects/GDScript/test_screen.gd" id="1_yxqk2"]
+[ext_resource type="PackedScene" uid="uid://bj26eftu75gq" path="res://Objects/Scenes/menu/canvas_spawn_screen.tscn" id="2_3enw8"]
+[ext_resource type="PackedScene" uid="uid://bhcick0y55jqb" path="res://interactions/xr_interactable_area.tscn" id="4_yxqk2"]
+
+[sub_resource type="QuadMesh" id="QuadMesh_yxqk2"]
+resource_local_to_scene = true
+size = Vector2(1080, 720)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_wt6fe"]
+viewport_path = NodePath("Viewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qlnrm"]
+transparency = 1
+cull_mode = 2
+shading_mode = 0
+albedo_texture = SubResource("ViewportTexture_wt6fe")
+texture_filter = 1
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cy6ja"]
+resource_local_to_scene = true
+size = Vector3(1080, 720, 0.02)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_sjl18"]
+radius = 2.54289
+
+[node name="TestScreen" type="Node3D"]
+script = ExtResource("1_yxqk2")
+
+[node name="Viewport2Din3D" parent="." instance=ExtResource("1_bgimb")]
+transform = Transform3D(0.002, 0, 0, 0, 0.002, 0, 0, 0, 0.002, 0, 0, 0)
+screen_size = Vector2(1080, 720)
+enabled = true
+collision_layer = 5242888
+scene = ExtResource("2_3enw8")
+viewport_size = Vector2(1920, 1080)
+unshaded = true
+
+[node name="Viewport" parent="Viewport2Din3D" index="0"]
+size = Vector2i(1920, 1080)
+
+[node name="Screen" parent="Viewport2Din3D" index="1"]
+mesh = SubResource("QuadMesh_yxqk2")
+surface_material_override/0 = SubResource("StandardMaterial3D_qlnrm")
+
+[node name="StaticBody3D" parent="Viewport2Din3D" index="2"]
+collision_layer = 5242888
+screen_size = Vector2(1080, 720)
+viewport_size = Vector2(1920, 1080)
+
+[node name="CollisionShape3D" parent="Viewport2Din3D/StaticBody3D" index="0"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.23447, 1.38706, -0.01)
+shape = SubResource("BoxShape3D_cy6ja")
+
+[node name="XRToolsInteractableArea" parent="." instance=ExtResource("4_yxqk2")]
+action_name = "Interagir"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="XRToolsInteractableArea"]
+shape = SubResource("SphereShape3D_sjl18")
+
+[editable path="Viewport2Din3D"]

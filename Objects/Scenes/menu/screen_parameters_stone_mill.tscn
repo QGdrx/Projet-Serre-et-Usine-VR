@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=3 uid="uid://o015p2ba0xpx"]
+
+[ext_resource type="Script" uid="uid://s6cjcvcjorco" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.gd" id="1_ouyf5"]
+[ext_resource type="PackedScene" uid="uid://cutojo60wug2r" path="res://Objects/Scenes/menu/canvas_scenarios.tscn" id="2_ouyf5"]
+[ext_resource type="Script" uid="uid://g4e206kosgbp" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d_body.gd" id="3_4owsn"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4owsn"]
+render_priority = 10
+shading_mode = 0
+
+[sub_resource type="QuadMesh" id="QuadMesh_ag208"]
+resource_local_to_scene = true
+size = Vector2(1.92, 1.08)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_ouyf5"]
+viewport_path = NodePath("Viewport2Din3D/Viewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ouyf5"]
+render_priority = 10
+shading_mode = 0
+albedo_texture = SubResource("ViewportTexture_ouyf5")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ngooe"]
+resource_local_to_scene = true
+size = Vector3(1.92, 1.08, 0.02)
+
+[node name="Parameters_Stone_Mill" type="Node3D"]
+
+[node name="Viewport2Din3D" type="Node3D" parent="."]
+script = ExtResource("1_ouyf5")
+screen_size = Vector2(1.92, 1.08)
+enabled = false
+scene = ExtResource("2_ouyf5")
+viewport_size = Vector2(1920, 1080)
+material = SubResource("StandardMaterial3D_4owsn")
+transparent = 0
+alpha_scissor_threshold = 0.25
+unshaded = false
+filter = true
+scene_properties_keys = PackedStringArray()
+
+[node name="Viewport" type="SubViewport" parent="Viewport2Din3D"]
+disable_3d = true
+gui_embed_subwindows = true
+size = Vector2i(1920, 1080)
+render_target_update_mode = 1
+
+[node name="Screen" type="MeshInstance3D" parent="Viewport2Din3D"]
+mesh = SubResource("QuadMesh_ag208")
+surface_material_override/0 = SubResource("StandardMaterial3D_ouyf5")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Viewport2Din3D"]
+collision_layer = 5242881
+collision_mask = 0
+script = ExtResource("3_4owsn")
+screen_size = Vector2(1.92, 1.08)
+viewport_size = Vector2(1920, 1080)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Viewport2Din3D/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.01)
+shape = SubResource("BoxShape3D_ngooe")

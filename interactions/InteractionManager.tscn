@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://c4doab0ae24eq"]
+
+[ext_resource type="Script" uid="uid://e5amobnbxxrp" path="res://interactions/interaction_manager.gd" id="1_ri5q1"]
+
+[node name="InteractionManager" type="Node3D" groups=["interaction_manager"]]
+script = ExtResource("1_ri5q1")
+
+[node name="Label3D" type="Label3D" parent="."]
+no_depth_test = true
+render_priority = 127
+outline_render_priority = 126
+text = "[A] To Interact"
+font_size = 18
+outline_size = 2

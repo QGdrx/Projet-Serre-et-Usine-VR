@@ -1,0 +1,100 @@
+[gd_scene load_steps=2 format=3 uid="uid://ks67bif8vrag"]
+
+[ext_resource type="Script" uid="uid://bpipi06e5k3me" path="res://Objects/GDScript/explanation_stone_mill.gd" id="1_suc1v"]
+
+[node name="Explanation_Stone_Mill" type="CanvasLayer"]
+
+[node name="Explanation_Stone_Mill" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_suc1v")
+
+[node name="PanelContainer" type="PanelContainer" parent="Explanation_Stone_Mill"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Explanation_Stone_Mill/PanelContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 0
+
+[node name="Label" type="Label" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "Machine simulation parameters"
+horizontal_alignment = 1
+
+[node name="MarginContainer4" type="MarginContainer" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_bottom = 20
+
+[node name="Label" type="Label" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer/MarginContainer4"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+text = "You will choose between two scenarios for the machine's operation. 
+The scenarios include the following parameters:"
+horizontal_alignment = 1
+
+[node name="MarginContainer2" type="MarginContainer" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 380
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 380
+theme_override_constants/margin_bottom = 15
+
+[node name="Label2" type="Label" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 72
+text = "- Seed Inserted     (kg)
+- Rotation speed  (rpm)
+- Operating time  (min)"
+
+[node name="MarginContainer3" type="MarginContainer" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 300
+theme_override_constants/margin_top = 25
+theme_override_constants/margin_right = 290
+theme_override_constants/margin_bottom = 25
+
+[node name="Label" type="Label" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer/MarginContainer3"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 48
+text = "First, choose the type of seed to insert."
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 170
+theme_override_constants/margin_top = 20
+
+[node name="ButtonCopeaSeeds" type="Button" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer/HBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 140
+text = "Copea seeds"
+
+[node name="MarginContainer2" type="MarginContainer" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 295
+theme_override_constants/margin_top = 20
+theme_override_constants/margin_right = 170
+
+[node name="ButtonMaize" type="Button" parent="Explanation_Stone_Mill/PanelContainer/VBoxContainer/HBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 140
+text = "Maize"
+
+[connection signal="pressed" from="Explanation_Stone_Mill/PanelContainer/VBoxContainer/HBoxContainer/MarginContainer/ButtonCopeaSeeds" to="Explanation_Stone_Mill" method="_on_button_copea_seeds_pressed"]
+[connection signal="pressed" from="Explanation_Stone_Mill/PanelContainer/VBoxContainer/HBoxContainer/MarginContainer2/ButtonMaize" to="Explanation_Stone_Mill" method="_on_button_maize_pressed"]

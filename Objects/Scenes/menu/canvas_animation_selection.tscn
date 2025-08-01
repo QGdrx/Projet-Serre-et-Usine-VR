@@ -1,0 +1,144 @@
+[gd_scene load_steps=2 format=3 uid="uid://bcryc1jpk0ujp"]
+
+[ext_resource type="Script" uid="uid://hp8y3xfwyvnh" path="res://Objects/GDScript/control_animation_selection.gd" id="1_g6o61"]
+
+[node name="canvas_animation_selection" type="CanvasLayer"]
+
+[node name="Control_animation_selection" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_g6o61")
+
+[node name="PanelContainer" type="PanelContainer" parent="Control_animation_selection"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Control_animation_selection/PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 60
+theme_override_constants/margin_top = 60
+
+[node name="ColorRect" type="ColorRect" parent="Control_animation_selection/PanelContainer/MarginContainer"]
+custom_minimum_size = Vector2(75, 75)
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+color = Color(0, 1, 0, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control_animation_selection/PanelContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 10
+theme_override_constants/margin_bottom = 10
+
+[node name="Label" type="Label" parent="Control_animation_selection/PanelContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 90
+text = "Animation Selector"
+horizontal_alignment = 1
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="Label" type="Label" parent="Control_animation_selection/PanelContainer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 60
+text = "Select the animation you want to see"
+horizontal_alignment = 1
+
+[node name="MarginContainer3" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 0
+theme_override_constants/margin_bottom = 30
+
+[node name="Label" type="Label" parent="Control_animation_selection/PanelContainer/VBoxContainer/MarginContainer3"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 42
+text = "The animations below the opening/closing of the machine depend on these:
+they can only be played if the machine is open/closed."
+horizontal_alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 200
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 100
+
+[node name="ButtonMachineOpening" type="Button" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "Machine Opening
+"
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_bottom = 100
+
+[node name="ButtonMachineClosure" type="Button" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "Machine Closure"
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_constants/margin_left = 200
+theme_override_constants/margin_right = 250
+theme_override_constants/margin_bottom = 100
+
+[node name="ButtonValve" type="Button" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer2/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "Rotation Valve"
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_constants/margin_bottom = 100
+
+[node name="ButtonHatchOpening" type="Button" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer2/MarginContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "Hatch Opening"
+
+[node name="HBoxContainer3" type="HBoxContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+theme_override_constants/margin_left = 65
+theme_override_constants/margin_right = 100
+
+[node name="ButtonInternalCylinder" type="Button" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer3/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "Rotation Internal Cylinder"
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer3"]
+layout_mode = 2
+
+[node name="ButtonHatchClosure" type="Button" parent="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer3/MarginContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "Hatch Closure"
+
+[connection signal="pressed" from="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer/MarginContainer/ButtonMachineOpening" to="Control_animation_selection" method="_on_button_machine_opening_pressed"]
+[connection signal="pressed" from="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer/MarginContainer2/ButtonMachineClosure" to="Control_animation_selection" method="_on_button_machine_closure_pressed"]
+[connection signal="pressed" from="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer2/MarginContainer/ButtonValve" to="Control_animation_selection" method="_on_button_valve_pressed"]
+[connection signal="pressed" from="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer2/MarginContainer2/ButtonHatchOpening" to="Control_animation_selection" method="_on_button_hatch_opening_pressed"]
+[connection signal="pressed" from="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer3/MarginContainer/ButtonInternalCylinder" to="Control_animation_selection" method="_on_button_internal_cylinder_pressed"]
+[connection signal="pressed" from="Control_animation_selection/PanelContainer/VBoxContainer/HBoxContainer3/MarginContainer2/ButtonHatchClosure" to="Control_animation_selection" method="_on_button_hatch_closure_pressed"]

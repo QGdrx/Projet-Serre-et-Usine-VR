@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cagif4lb1srd2"]
+
+[ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="1_deq1l"]
+[ext_resource type="PackedScene" uid="uid://bcryc1jpk0ujp" path="res://Objects/Scenes/menu/canvas_animation_selection.tscn" id="2_inpmu"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iaaqh"]
+cull_mode = 2
+shading_mode = 0
+
+[node name="screen_anim_selector" type="Node3D"]
+
+[node name="Viewport2Din3D" parent="." instance=ExtResource("1_deq1l")]
+screen_size = Vector2(1.9, 1.1)
+enabled = true
+scene = ExtResource("2_inpmu")
+viewport_size = Vector2(1920, 1080)
+material = SubResource("StandardMaterial3D_iaaqh")

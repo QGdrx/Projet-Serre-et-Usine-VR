@@ -1,0 +1,52 @@
+[gd_scene load_steps=7 format=3 uid="uid://duidpj7yajo5a"]
+
+[ext_resource type="Script" uid="uid://bmhxuav40amlx" path="res://Objects/GDScript/spawn_dehuller_rotate.gd" id="7_p0pjl"]
+[ext_resource type="PackedScene" uid="uid://cbqk0uiwesdas" path="res://Objects/Scenes/base_objects/dehuller.tscn" id="8_47h20"]
+[ext_resource type="AudioStream" uid="uid://cwyo4rphwgtwy" path="res://Sounds/Ad astra.mp3" id="8_p0pjl"]
+[ext_resource type="PackedScene" uid="uid://bhcick0y55jqb" path="res://interactions/xr_interactable_area.tscn" id="10_qx7h2"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_78ju4"]
+radius = 0.33276
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_p0pjl"]
+size = Vector3(0.498184, 1.00533, 0.504578)
+
+[node name="interactable_dehuller_rotate" type="Node3D"]
+transform = Transform3D(0.7, 0, 0, 0, 0.7, 0, 0, 0, 0.7, 0, 0, 0)
+
+[node name="AudioStreamPlayer3D" type="AudioStreamPlayer3D" parent="."]
+stream = ExtResource("8_p0pjl")
+volume_db = -15.0
+unit_size = 5.0
+
+[node name="Dehuller_Close" parent="." instance=ExtResource("8_47h20")]
+script = ExtResource("7_p0pjl")
+
+[node name="RotatePoint" type="Node3D" parent="Dehuller_Close"]
+transform = Transform3D(0.4, 0, 0, 0, 0.4, 0, 0, 0, 0.4, -0.00950979, 0.158176, -0.0216462)
+visible = false
+
+[node name="Dehuller_Close" parent="Dehuller_Close/RotatePoint" instance=ExtResource("8_47h20")]
+
+[node name="Label3D" type="Label3D" parent="Dehuller_Close/RotatePoint/Dehuller_Close"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.471841, 0)
+render_priority = 127
+outline_render_priority = 126
+text = "[B] To Exit Object View"
+font_size = 20
+outline_size = 2
+
+[node name="XRToolsInteractableArea" parent="Dehuller_Close" instance=ExtResource("10_qx7h2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.297118, 0)
+action_name = "display the 3DModel"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Dehuller_Close/XRToolsInteractableArea"]
+transform = Transform3D(5.785, 0, 0, 0, 5.785, 0, 0, 0, 5.785, 0, 0, 0)
+shape = SubResource("SphereShape3D_78ju4")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Dehuller_Close"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.38569, 0.00103581)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Dehuller_Close/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.000328258, -1.18048, -0.00418139)
+shape = SubResource("BoxShape3D_p0pjl")

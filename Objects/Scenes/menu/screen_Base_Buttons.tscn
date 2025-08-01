@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bs1hugns76pnb"]
+
+[ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="1_rxoku"]
+[ext_resource type="PackedScene" uid="uid://cahewpso70fa0" path="res://Objects/Scenes/menu/canvas_Button_Menu.tscn" id="2_mci0k"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dscpp"]
+render_priority = 127
+cull_mode = 2
+no_depth_test = true
+shading_mode = 0
+
+[node name="Button Screen" type="Node3D"]
+
+[node name="Viewport2Din3D" parent="." instance=ExtResource("1_rxoku")]
+screen_size = Vector2(1.4, 0.8)
+scene = ExtResource("2_mci0k")
+viewport_size = Vector2(2050, 1080)
+material = SubResource("StandardMaterial3D_dscpp")
+transparent = 0
+unshaded = true

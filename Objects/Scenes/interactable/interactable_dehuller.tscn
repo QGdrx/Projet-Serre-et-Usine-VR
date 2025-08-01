@@ -1,0 +1,97 @@
+[gd_scene load_steps=14 format=3 uid="uid://waejlppfqsoi"]
+
+[ext_resource type="PackedScene" uid="uid://cbqk0uiwesdas" path="res://Objects/Scenes/base_objects/dehuller.tscn" id="1_8thop"]
+[ext_resource type="PackedScene" uid="uid://bhcick0y55jqb" path="res://interactions/xr_interactable_area.tscn" id="1_vaw7f"]
+[ext_resource type="Script" uid="uid://bqoooqx2yuwvs" path="res://Objects/GDScript/dehuller.gd" id="2_fl6sb"]
+[ext_resource type="Script" uid="uid://s6cjcvcjorco" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.gd" id="2_jljo3"]
+[ext_resource type="PackedScene" uid="uid://b0a0gd2xs2b15" path="res://Objects/Scenes/menu/canvas_explanation_dehuller.tscn" id="3_fl6sb"]
+[ext_resource type="Script" uid="uid://g4e206kosgbp" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d_body.gd" id="4_jcndr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_le7ln"]
+render_priority = 127
+cull_mode = 2
+no_depth_test = true
+shading_mode = 0
+
+[sub_resource type="QuadMesh" id="QuadMesh_gbw8p"]
+resource_local_to_scene = true
+size = Vector2(2.24, 1.26)
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_fl6sb"]
+viewport_path = NodePath("Dehuller_Close/screen_explanation_dehuller/Viewport2Din3D/Viewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_jcndr"]
+render_priority = 127
+cull_mode = 2
+no_depth_test = true
+shading_mode = 0
+albedo_texture = SubResource("ViewportTexture_fl6sb")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_13mjs"]
+resource_local_to_scene = true
+size = Vector3(2.24, 1.26, 0.02)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_6o2nc"]
+radius = 1.87861
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_18a5t"]
+size = Vector3(0.48877, 1.01111, 0.507874)
+
+[node name="interactable_Dehuller" type="Node3D"]
+
+[node name="Dehuller_Close" parent="." instance=ExtResource("1_8thop")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0, 0)
+script = ExtResource("2_fl6sb")
+
+[node name="screen_explanation_dehuller" type="Node3D" parent="Dehuller_Close"]
+transform = Transform3D(-0.5, 0, -4.37114e-08, 0, 0.5, 0, 4.37114e-08, 0, -0.5, 0, 0.25, 0)
+
+[node name="Viewport2Din3D" type="Node3D" parent="Dehuller_Close/screen_explanation_dehuller"]
+visible = false
+script = ExtResource("2_jljo3")
+screen_size = Vector2(2.24, 1.26)
+enabled = false
+scene = ExtResource("3_fl6sb")
+viewport_size = Vector2(1920, 1080)
+material = SubResource("StandardMaterial3D_le7ln")
+alpha_scissor_threshold = 0.25
+unshaded = false
+filter = true
+scene_properties_keys = PackedStringArray()
+
+[node name="Viewport" type="SubViewport" parent="Dehuller_Close/screen_explanation_dehuller/Viewport2Din3D"]
+disable_3d = true
+transparent_bg = true
+gui_embed_subwindows = true
+size = Vector2i(1920, 1080)
+render_target_update_mode = 1
+
+[node name="Screen" type="MeshInstance3D" parent="Dehuller_Close/screen_explanation_dehuller/Viewport2Din3D"]
+mesh = SubResource("QuadMesh_gbw8p")
+surface_material_override/0 = SubResource("StandardMaterial3D_jcndr")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Dehuller_Close/screen_explanation_dehuller/Viewport2Din3D"]
+collision_layer = 5242881
+collision_mask = 0
+script = ExtResource("4_jcndr")
+screen_size = Vector2(2.24, 1.26)
+viewport_size = Vector2(1920, 1080)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Dehuller_Close/screen_explanation_dehuller/Viewport2Din3D/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -0.01)
+shape = SubResource("BoxShape3D_13mjs")
+
+[node name="XRToolsInteractableArea" parent="Dehuller_Close" instance=ExtResource("1_vaw7f")]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 0)
+action_name = "display explanations"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Dehuller_Close/XRToolsInteractableArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.40742, 0)
+shape = SubResource("SphereShape3D_6o2nc")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Dehuller_Close"]
+transform = Transform3D(-1, 0, 8.74228e-08, 0, 1, 0, -8.74228e-08, 0, -1, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Dehuller_Close/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.000732422, 0.206238, -0.0106506)
+shape = SubResource("BoxShape3D_18a5t")

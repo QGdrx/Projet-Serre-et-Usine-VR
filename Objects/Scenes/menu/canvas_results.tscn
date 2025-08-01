@@ -1,0 +1,68 @@
+[gd_scene load_steps=2 format=3 uid="uid://d3ysb371r8pje"]
+
+[ext_resource type="Script" uid="uid://8fnumdw34dxj" path="res://Objects/GDScript/control_results.gd" id="1_otjd1"]
+
+[node name="CanvasResults" type="CanvasLayer"]
+
+[node name="ControlResults" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+script = ExtResource("1_otjd1")
+
+[node name="PanelContainer" type="PanelContainer" parent="ControlResults"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ControlResults/PanelContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ControlResults/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_bottom = 20
+
+[node name="Label" type="Label" parent="ControlResults/PanelContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 80
+text = "For the scenario and seed you have chosen,
+the results are as follows :"
+horizontal_alignment = 1
+
+[node name="HBoxContainer2" type="HBoxContainer" parent="ControlResults/PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer2" type="MarginContainer" parent="ControlResults/PanelContainer/VBoxContainer/HBoxContainer2"]
+layout_mode = 2
+theme_override_constants/margin_left = 400
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 0
+theme_override_constants/margin_bottom = 0
+
+[node name="Label2" type="Label" parent="ControlResults/PanelContainer/VBoxContainer/HBoxContainer2/MarginContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 90
+text = "Dehulled Seeds : 0.4 (kg)
+
+Undehulled Seeds : 1.3 (kg)"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="ControlResults/PanelContainer/VBoxContainer"]
+layout_mode = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="ControlResults/PanelContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 400
+theme_override_constants/margin_top = 100
+theme_override_constants/margin_right = 400
+
+[node name="Button" type="Button" parent="ControlResults/PanelContainer/VBoxContainer/VBoxContainer/MarginContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 100
+text = "Back to Selection"
+
+[connection signal="pressed" from="ControlResults/PanelContainer/VBoxContainer/VBoxContainer/MarginContainer/Button" to="ControlResults" method="_on_button_pressed"]

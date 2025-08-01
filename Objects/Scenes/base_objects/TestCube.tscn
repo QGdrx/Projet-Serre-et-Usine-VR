@@ -1,0 +1,22 @@
+[gd_scene load_steps=5 format=3 uid="uid://dvh6mhon1v8f"]
+
+[ext_resource type="Texture2D" uid="uid://srpjd4h7rw6m" path="res://Images/icon.svg" id="1_qfsir"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4spt5"]
+albedo_texture = ExtResource("1_qfsir")
+uv1_scale = Vector3(3, 2, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_q8v6r"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_vev7e"]
+
+[node name="GodotCube" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+material_override = SubResource("StandardMaterial3D_4spt5")
+mesh = SubResource("BoxMesh_q8v6r")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D/StaticBody3D"]
+shape = SubResource("BoxShape3D_vev7e")

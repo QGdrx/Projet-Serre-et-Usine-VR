@@ -1,0 +1,48 @@
+[gd_scene load_steps=9 format=3 uid="uid://bcc6bxpbnbc2y"]
+
+[ext_resource type="Script" uid="uid://oyrm2dbnfi33" path="res://Objects/GDScript/change_scene_object.gd" id="1_cio1x"]
+[ext_resource type="Script" uid="uid://5jfoky3jxqrk" path="res://addons/godot-xr-tools/objects/interactable_area.gd" id="2_ktbdi"]
+[ext_resource type="PackedScene" uid="uid://cjtr7x1ei4ag4" path="res://Objects/Scenes/base_objects/stone_mill.tscn" id="2_m7gjc"]
+[ext_resource type="PackedScene" uid="uid://cbqk0uiwesdas" path="res://Objects/Scenes/base_objects/dehuller.tscn" id="3_fhatp"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_vlhxd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2x0g7"]
+size = Vector3(0.196838, 0.402298, 0.198517)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_4ox3a"]
+size = Vector3(0.448669, 0.763306, 0.452881)
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_vlhxd"]
+radius = 1.61728
+
+[node name="ChangeSceneUsine" type="Node3D"]
+script = ExtResource("1_cio1x")
+
+[node name="Central_point" type="Node3D" parent="."]
+
+[node name="stone_mill" parent="Central_point" instance=ExtResource("2_m7gjc")]
+transform = Transform3D(-2.18557e-08, 0, -0.5, 0, 0.5, 0, 0.5, 0, -2.18557e-08, 0, 0, -0.299664)
+
+[node name="Dehuller_Close" parent="Central_point" instance=ExtResource("3_fhatp")]
+transform = Transform3D(-1.74846e-08, 0, -0.4, 0, 0.4, 0, 0.4, 0, -1.74846e-08, 0.0178666, 0.120543, 0.192721)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Central_point"]
+physics_material_override = SubResource("PhysicsMaterial_vlhxd")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Central_point/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0176697, 0.201729, 0.193161)
+shape = SubResource("BoxShape3D_2x0g7")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Central_point/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0291443, 0.380188, -0.275269)
+shape = SubResource("BoxShape3D_4ox3a")
+
+[node name="XRToolsInteractableArea" type="Area3D" parent="."]
+script = ExtResource("2_ktbdi")
+action_name = "change Scene"
+metadata/_custom_type_script = "uid://5jfoky3jxqrk"
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="XRToolsInteractableArea"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.191892, 0)
+shape = SubResource("SphereShape3D_vlhxd")

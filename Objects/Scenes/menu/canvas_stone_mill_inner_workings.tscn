@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://dmw17t873pq8b"]
+
+[ext_resource type="Texture2D" uid="uid://clqty53a3idqk" path="res://Images/StoneMillInnerWorkings.png" id="1_8ibqn"]
+
+[node name="Canvas_StoneMill_InnerWorkings" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1024.0
+offset_bottom = 1024.0
+
+[node name="StoneMillInnerWorkings" type="Sprite2D" parent="Control"]
+position = Vector2(512, 512)
+texture = ExtResource("1_8ibqn")

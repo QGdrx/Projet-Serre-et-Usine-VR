@@ -1,0 +1,33 @@
+[gd_scene load_steps=7 format=3 uid="uid://7lotlmmctaod"]
+
+[ext_resource type="PackedScene" uid="uid://c8l60rnugru40" path="res://addons/godot-xr-tools/objects/pickable.tscn" id="1_7w3cp"]
+[ext_resource type="PackedScene" uid="uid://dm831oxbmm2q0" path="res://Objects/Scenes/base_objects/Wheel.tscn" id="2_a6c76"]
+[ext_resource type="Script" uid="uid://dnowigfavjn2f" path="res://addons/godot-xr-tools/objects/highlight/highlight_visible.gd" id="3_5uobw"]
+[ext_resource type="PackedScene" uid="uid://c4oqhlhk1ceam" path="res://Objects/Scenes/outline/outline_Actuator.tscn" id="4_jc63t"]
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_7w3cp"]
+rough = true
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_5uobw"]
+height = 0.491223
+radius = 2.81104
+
+[node name="PickableWheel" instance=ExtResource("1_7w3cp")]
+mass = 5.0
+physics_material_override = SubResource("PhysicsMaterial_7w3cp")
+continuous_cd = true
+linear_damp = 1.5
+angular_damp = 0.3
+
+[node name="CollisionShape3D" parent="." index="0"]
+transform = Transform3D(0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0.00260396, 0)
+shape = SubResource("CylinderShape3D_5uobw")
+
+[node name="Actuator" parent="." index="1" instance=ExtResource("2_a6c76")]
+
+[node name="XRToolsHighlightVisible" type="Node3D" parent="." index="2"]
+visible = false
+script = ExtResource("3_5uobw")
+metadata/_custom_type_script = "uid://dnowigfavjn2f"
+
+[node name="Actuator" parent="XRToolsHighlightVisible" index="0" instance=ExtResource("4_jc63t")]

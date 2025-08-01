@@ -1,0 +1,14 @@
+Node3D
+MarginContainer
+HBoxContainer
+Button
+VBoxContainer
+Control
+CanvasLayer
+CollisionShape3D
+ColorRect
+PanelContainer
+Label
+GPUParticles3D
+TextEdit
+Label3D

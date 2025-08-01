@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bhcick0y55jqb"]
+
+[ext_resource type="Script" uid="uid://5jfoky3jxqrk" path="res://addons/godot-xr-tools/objects/interactable_area.gd" id="1_xmpno"]
+
+[node name="XRToolsInteractableArea" type="Area3D" groups=["interaction_areas"]]
+script = ExtResource("1_xmpno")
+action_name = "Interact Test Wow"
+metadata/_custom_type_script = "uid://5jfoky3jxqrk"

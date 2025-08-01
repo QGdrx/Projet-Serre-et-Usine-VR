@@ -1,0 +1,295 @@
+[gd_scene load_steps=40 format=3 uid="uid://ckkcswebmyhgi"]
+
+[ext_resource type="PackedScene" uid="uid://bw3la51gxjuvn" path="res://Player/Player.tscn" id="1_kwym7"]
+[ext_resource type="Texture2D" uid="uid://b3v001nor6sb1" path="res://Objects/Textures/WoodFloor051_1K-JPG/WoodFloor051_1K-JPG_Color.jpg" id="2_btskr"]
+[ext_resource type="Texture2D" uid="uid://bccjakp7yc0xs" path="res://Objects/Textures/WoodFloor051_1K-JPG/WoodFloor051_1K-JPG_AmbientOcclusion.jpg" id="3_hx5ej"]
+[ext_resource type="Texture2D" uid="uid://dgq00ii6c0ag2" path="res://Objects/Textures/WoodFloor051_1K-JPG/WoodFloor051_1K-JPG_NormalGL.jpg" id="4_xm3lg"]
+[ext_resource type="Texture2D" uid="uid://b3nya7uam26qd" path="res://Objects/Textures/WoodFloor051_1K-JPG/WoodFloor051_1K-JPG_Roughness.jpg" id="5_au0p5"]
+[ext_resource type="PackedScene" uid="uid://djcbc1mjwa045" path="res://Objects/Scenes/interactable/interactable_machine_spawn.tscn" id="6_cdy37"]
+[ext_resource type="Texture2D" uid="uid://d1nqygfy75w1v" path="res://Objects/Textures/WoodSiding007_1K-JPG/WoodSiding007_1K-JPG_Color.jpg" id="7_g5oy4"]
+[ext_resource type="Texture2D" uid="uid://b6i4nrluc5gsn" path="res://Objects/Textures/WoodSiding007_1K-JPG/WoodSiding007_1K-JPG_AmbientOcclusion.jpg" id="8_xw0n1"]
+[ext_resource type="Texture2D" uid="uid://j72e36kmq4lp" path="res://Objects/Textures/WoodSiding007_1K-JPG/WoodSiding007_1K-JPG_NormalGL.jpg" id="9_xc20i"]
+[ext_resource type="Texture2D" uid="uid://wxrcc5drfr47" path="res://Objects/Textures/WoodSiding007_1K-JPG/WoodSiding007_1K-JPG_Roughness.jpg" id="10_r6suv"]
+[ext_resource type="Texture2D" uid="uid://cosu6oyfqlmwj" path="res://Objects/Textures/OfficeCeiling005_1K-JPG/OfficeCeiling005_1K-JPG_Color.jpg" id="11_jg16a"]
+[ext_resource type="Texture2D" uid="uid://r4wshojujud4" path="res://Objects/Textures/OfficeCeiling005_1K-JPG/OfficeCeiling005_1K-JPG_AmbientOcclusion.jpg" id="12_dhkm3"]
+[ext_resource type="Texture2D" uid="uid://cc2yssqxdb05y" path="res://Objects/Textures/OfficeCeiling005_1K-JPG/OfficeCeiling005_1K-JPG_Emission.jpg" id="13_tu24n"]
+[ext_resource type="Texture2D" uid="uid://d0hhsjy0l0cu3" path="res://Objects/Textures/OfficeCeiling005_1K-JPG/OfficeCeiling005_1K-JPG_NormalGL.jpg" id="14_wtnl8"]
+[ext_resource type="Texture2D" uid="uid://rkwmg41hy3sr" path="res://Objects/Textures/OfficeCeiling005_1K-JPG/OfficeCeiling005_1K-JPG_Roughness.jpg" id="15_pmoog"]
+[ext_resource type="PackedScene" uid="uid://dvh6mhon1v8f" path="res://Objects/Scenes/base_objects/TestCube.tscn" id="16_kcove"]
+[ext_resource type="PackedScene" uid="uid://bx2fbnetqbw4u" path="res://Objects/Scenes/pickable/pickable_Wheel_Small.tscn" id="17_0j8j1"]
+[ext_resource type="PackedScene" uid="uid://bcc6bxpbnbc2y" path="res://Objects/Scenes/interactable/change_scene_Usine.tscn" id="18_4htai"]
+[ext_resource type="PackedScene" uid="uid://7hl5xetvytdm" path="res://Objects/Scenes/interactable/change_scene_Serre.tscn" id="19_utfd4"]
+[ext_resource type="PackedScene" uid="uid://bs1hugns76pnb" path="res://Objects/Scenes/menu/screen_Base_Buttons.tscn" id="20_j7nm6"]
+[ext_resource type="PackedScene" uid="uid://duidpj7yajo5a" path="res://Objects/Scenes/interactable/interactable_dehuller_rotate.tscn" id="21_btskr"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_sjmgn"]
+albedo_texture = ExtResource("2_btskr")
+roughness_texture = ExtResource("5_au0p5")
+normal_enabled = true
+normal_texture = ExtResource("4_xm3lg")
+ao_enabled = true
+ao_texture = ExtResource("3_hx5ej")
+uv1_scale = Vector3(15, 15, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_e4rpn"]
+material = SubResource("StandardMaterial3D_sjmgn")
+
+[sub_resource type="PhysicsMaterial" id="PhysicsMaterial_ht5nt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8bucy"]
+size = Vector3(9.99573, 0.522583, 9.98621)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_gg0xm"]
+albedo_texture = ExtResource("7_g5oy4")
+roughness_texture = ExtResource("10_r6suv")
+normal_enabled = true
+normal_texture = ExtResource("9_xc20i")
+ao_enabled = true
+ao_texture = ExtResource("8_xw0n1")
+uv1_scale = Vector3(20, 6, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_ss1nd"]
+material = SubResource("StandardMaterial3D_gg0xm")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gg0xm"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_uhryt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6nxgt"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_5e71m"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w6weu"]
+albedo_texture = ExtResource("11_jg16a")
+roughness_texture = ExtResource("15_pmoog")
+emission_enabled = true
+emission = Color(1, 1, 1, 1)
+emission_energy_multiplier = 1.1
+emission_operator = 1
+emission_texture = ExtResource("13_tu24n")
+normal_enabled = true
+normal_texture = ExtResource("14_wtnl8")
+ao_enabled = true
+ao_texture = ExtResource("12_dhkm3")
+uv1_scale = Vector3(10, 10, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_0b746"]
+material = SubResource("StandardMaterial3D_w6weu")
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_e4rpn"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_37ios"]
+sky_top_color = Color(0.330591, 0.448453, 0.655095, 1)
+sky_horizon_color = Color(0.499872, 0.671713, 0.856061, 1)
+sky_curve = 0.0512265
+sun_angle_max = 8.0
+energy_multiplier = 1.1
+
+[sub_resource type="Sky" id="Sky_in64d"]
+sky_material = SubResource("ProceduralSkyMaterial_37ios")
+
+[sub_resource type="Environment" id="Environment_lgpg4"]
+background_mode = 2
+background_energy_multiplier = 0.9
+sky = SubResource("Sky_in64d")
+tonemap_mode = 2
+tonemap_exposure = 0.9
+tonemap_white = 5.0
+ssr_fade_in = 0.25
+ssr_fade_out = 0.4
+ssr_depth_tolerance = 0.21
+adjustment_enabled = true
+adjustment_contrast = 1.1
+adjustment_saturation = 1.3
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_tn6lp"]
+exposure_multiplier = 1.1
+
+[sub_resource type="Compositor" id="Compositor_gx4hh"]
+
+[node name="Spawn" type="Node3D"]
+
+[node name="Player" parent="." instance=ExtResource("1_kwym7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.795709, 0)
+
+[node name="Floor" type="Node3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, -0.25, 0)
+mesh = SubResource("BoxMesh_e4rpn")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Floor"]
+physics_material_override = SubResource("PhysicsMaterial_ht5nt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00665283, -0.238708, -0.0122681)
+shape = SubResource("BoxShape3D_8bucy")
+
+[node name="Walls" type="Node3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Walls"]
+transform = Transform3D(10, 0, 0, 0, 3, 0, 0, 0, 0.5, 0, 1.5, 5)
+mesh = SubResource("BoxMesh_ss1nd")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/MeshInstance3D/StaticBody3D"]
+shape = SubResource("BoxShape3D_gg0xm")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="Walls"]
+transform = Transform3D(10, 0, 0, 0, 3, 0, 0, 0, 0.5, 0, 1.5, -5)
+mesh = SubResource("BoxMesh_ss1nd")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/MeshInstance3D2"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/MeshInstance3D2/StaticBody3D"]
+shape = SubResource("BoxShape3D_uhryt")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="Walls"]
+transform = Transform3D(-4.37114e-07, 0, 0.5, 0, 3, 0, -10, 0, -2.18557e-08, 5, 1.5, 0)
+mesh = SubResource("BoxMesh_ss1nd")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/MeshInstance3D3"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/MeshInstance3D3/StaticBody3D"]
+shape = SubResource("BoxShape3D_6nxgt")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="Walls"]
+transform = Transform3D(-4.37114e-07, 0, 0.5, 0, 3, 0, -10, 0, -2.18557e-08, -5, 1.5, 0)
+mesh = SubResource("BoxMesh_ss1nd")
+skeleton = NodePath("../..")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Walls/MeshInstance3D4"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Walls/MeshInstance3D4/StaticBody3D"]
+shape = SubResource("BoxShape3D_5e71m")
+
+[node name="Ceiling" type="Node3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Ceiling"]
+transform = Transform3D(10, 0, 0, 0, 0.5, 0, 0, 0, 10, 0, 3, 0)
+mesh = SubResource("BoxMesh_0b746")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Ceiling/MeshInstance3D"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Ceiling/MeshInstance3D/StaticBody3D"]
+shape = SubResource("BoxShape3D_e4rpn")
+
+[node name="Lights" type="Node3D" parent="."]
+
+[node name="SpotLight3D" type="SpotLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 22, 0)
+visible = false
+light_energy = 1.5
+spot_range = 34.5063
+spot_attenuation = 0.0
+spot_angle = 120.0
+
+[node name="SpotLight3D2" type="SpotLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, -18.6, 0)
+spot_range = 24.3387
+spot_attenuation = 0.0
+spot_angle = 120.0
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Lights"]
+environment = SubResource("Environment_lgpg4")
+camera_attributes = SubResource("CameraAttributesPractical_tn6lp")
+compositor = SubResource("Compositor_gx4hh")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Lights"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 6.83313, 0)
+light_energy = 1.4
+shadow_normal_bias = 1.0
+shadow_blur = 0.1
+
+[node name="Texts" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.55898, -4.73897)
+
+[node name="Welcome" type="Label3D" parent="Texts"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0273066, 0)
+text = "Welcome to the VR space
+"
+font_size = 48
+
+[node name="Indications" type="Label3D" parent="Texts/Welcome"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.421859, 0)
+text = "Quick explanation of the Keys 
+which you can find by pressing [X] or [Y]"
+font_size = 28
+
+[node name="PickUp" type="Label3D" parent="Texts"]
+transform = Transform3D(-4.3711e-08, 0.00408406, -0.999992, 1.7852e-10, 0.999992, 0.00408406, 1, 0, -4.37114e-08, 4.744, -0.665039, 7.0443)
+text = "You can also pick up certain objects.
+There will be several objects of this kind
+in the other areas.
+If they glow white when your hands are 
+near them : you can pick them up."
+font_size = 38
+
+[node name="Interaction" type="Label3D" parent="Texts"]
+transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, 4.746, -0.38, 2.78928)
+text = "Interacting with an object can
+lead to different things.
+Try interacting with the objects below."
+font_size = 38
+
+[node name="Crédits" type="Label3D" parent="Texts"]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, -4.74337, -0.880403, 5)
+text = "This space is brought to you by GODEREAUX Quentin and BENSIDHOUM Nicolas,
+students specialising in EI at Polytech Sorbonne.
+
+We hope you enjoy your visit here."
+font_size = 38
+
+[node name="Serre" type="Label3D" parent="Texts"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, -2.5, -0.45, 9.487)
+text = "Interact to go to the
+Saint-Cyr Greenhouse."
+font_size = 40
+
+[node name="Usine" type="Label3D" parent="Texts"]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 2.5, -0.45, 9.487)
+text = "Interact to go to
+the Factory"
+font_size = 40
+
+[node name="Objects" type="Node3D" parent="."]
+
+[node name="GodotCube" parent="Objects" instance=ExtResource("16_kcove")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.24573, 0.522583, 2.31062)
+
+[node name="PickableWheelSmall" parent="Objects" instance=ExtResource("17_0j8j1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.03658, 1.03618, 2.04311)
+
+[node name="PickableWheelSmall2" parent="Objects" instance=ExtResource("17_0j8j1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.0149, 1.03618, 2.55628)
+
+[node name="ChangeSceneUsine" parent="Objects" instance=ExtResource("18_4htai")]
+transform = Transform3D(-4.37114e-08, 0, 1, 0, 1, 0, -1, 0, -4.37114e-08, 2.60292, 0.99949, 4.19365)
+
+[node name="ChangeSceneSerre" parent="Objects" instance=ExtResource("19_utfd4")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.47726, 1.05286, 4.27075)
+
+[node name="Button Screen" parent="Objects" instance=ExtResource("20_j7nm6")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 1.02906, -4.749)
+
+[node name="GodotCube2" parent="Objects" instance=ExtResource("16_kcove")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.24573, 0.522583, -2.90361)
+
+[node name="GodotCube3" parent="Objects" instance=ExtResource("16_kcove")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.24573, 0.522583, -0.911477)
+
+[node name="interactable_machine_spawn" parent="Objects" instance=ExtResource("6_cdy37")]
+transform = Transform3D(-3.0598e-08, 0, 0.7, 0, 0.7, 0, -0.7, 0, -3.0598e-08, 4.23763, 1.2276, -0.88795)
+
+[node name="interactable_dehuller_rotate" parent="Objects" instance=ExtResource("21_btskr")]
+transform = Transform3D(-0.02167, 0, 0.699664, 0, 0.7, 0, -0.699664, 0, -0.02167, 4.2079, 1.23268, -2.91919)
+
+[node name="GodotCube4" parent="Objects" instance=ExtResource("16_kcove")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.51693, 0.522583, 4.20852)
+
+[node name="GodotCube5" parent="Objects" instance=ExtResource("16_kcove")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.49033, 0.522583, 4.20852)

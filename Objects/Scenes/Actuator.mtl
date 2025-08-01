@@ -1,0 +1,46 @@
+# Blender 4.4.3 MTL File: 'Test.blend'
+# www.blender.org
+
+newmtl IvorySubstance001
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd G:/GameDev/3D Models/substance tx/IvorySubstance001/IvorySubstance001_IvorySubstance001_basecolor.tga
+map_Ns G:/GameDev/3D Models/substance tx/IvorySubstance001/IvorySubstance001_IvorySubstance001_roughness.tga
+map_Bump -bm 1.000000 G:/GameDev/3D Models/substance tx/IvorySubstance001/IvorySubstance001_IvorySubstance001_normal.png
+
+newmtl Material
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/quent/Downloads/PaintedMetal004_2K-JPG/PaintedMetal004_2K-JPG_Color.jpg
+map_Ns C:/Users/quent/Downloads/PaintedMetal004_2K-JPG/PaintedMetal004_2K-JPG_Roughness.jpg
+map_refl C:/Users/quent/Downloads/PaintedMetal004_2K-JPG/PaintedMetal004_2K-JPG_Metalness.jpg
+
+newmtl Material.001
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd C:/Users/quent/Downloads/Paint004_1K-JPG/Paint004_1K-JPG_Color.jpg
+
+newmtl MetalSubstance002
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd G:/GameDev/3D Models/substance tx/MetalSubstance002/MetalSubstance002_MetalSubstance002_basecolor.tga
+map_Ns G:/GameDev/3D Models/substance tx/MetalSubstance002/MetalSubstance002_MetalSubstance002_roughness.tga
+map_refl G:/GameDev/3D Models/substance tx/MetalSubstance002/MetalSubstance002_MetalSubstance002_metallic.tga
+map_Bump -bm 1.000000 G:/GameDev/3D Models/substance tx/MetalSubstance002/MetalSubstance002_MetalSubstance002_normal.png

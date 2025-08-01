@@ -1,0 +1,121 @@
+[gd_scene load_steps=23 format=3 uid="uid://deeawvhq6mqme"]
+
+[ext_resource type="Script" uid="uid://oyrm2dbnfi33" path="res://Objects/GDScript/change_scene_object.gd" id="1_n6gpt"]
+[ext_resource type="PackedScene" uid="uid://bw3la51gxjuvn" path="res://Player/Player.tscn" id="2_2c5ks"]
+[ext_resource type="Texture2D" uid="uid://c3cvypytry15l" path="res://Objects/Textures/Grass005_2K-JPG/Grass005_2K-JPG_Color.jpg" id="3_84qj0"]
+[ext_resource type="Texture2D" uid="uid://cv4l6etvidvis" path="res://Objects/Textures/Grass005_2K-JPG/Grass005_2K-JPG_AmbientOcclusion.jpg" id="4_6acqt"]
+[ext_resource type="Texture2D" uid="uid://byhqdciy5es1" path="res://Objects/Textures/Grass005_2K-JPG/Grass005_2K-JPG_NormalGL.jpg" id="5_ineks"]
+[ext_resource type="Texture2D" uid="uid://cjfrxnm38xu0y" path="res://Objects/Textures/Grass005_2K-JPG/Grass005_2K-JPG_Roughness.jpg" id="6_6uf5e"]
+[ext_resource type="PackedScene" uid="uid://7hl5xetvytdm" path="res://Objects/Scenes/interactable/change_scene_Serre.tscn" id="7_78i1q"]
+[ext_resource type="PackedScene" uid="uid://bawspcm067fk1" path="res://Objects/Scenes/base_objects/serre.tscn" id="8_hnsl0"]
+[ext_resource type="PackedScene" uid="uid://dvh6mhon1v8f" path="res://Objects/Scenes/base_objects/TestCube.tscn" id="9_2c5ks"]
+[ext_resource type="PackedScene" uid="uid://dxhv703etrscj" path="res://Objects/Scenes/base_objects/barrier.tscn" id="10_84qj0"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_gv5m4"]
+size = Vector3(18.136, 0.283728, 18.3052)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nws2k"]
+albedo_texture = ExtResource("3_84qj0")
+roughness_texture = ExtResource("6_6uf5e")
+normal_enabled = true
+normal_texture = ExtResource("5_ineks")
+ao_enabled = true
+ao_texture = ExtResource("4_6acqt")
+uv1_scale = Vector3(20, 20, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_f3sb7"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_xulsw"]
+sky_top_color = Color(0, 0.402166, 0.947191, 1)
+sky_horizon_color = Color(0.68323, 0.657037, 0.549115, 1)
+sky_curve = 0.126135
+
+[sub_resource type="Sky" id="Sky_84qj0"]
+sky_material = SubResource("ProceduralSkyMaterial_xulsw")
+
+[sub_resource type="Environment" id="Environment_bu4uk"]
+background_mode = 2
+sky = SubResource("Sky_84qj0")
+reflected_light_source = 2
+
+[sub_resource type="CameraAttributesPractical" id="CameraAttributesPractical_ef0li"]
+
+[sub_resource type="Compositor" id="Compositor_1yk5f"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6acqt"]
+size = Vector3(14.2789, 1.10266, 0.339691)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_ineks"]
+size = Vector3(0.282166, 1.06201, 14.2661)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_6uf5e"]
+size = Vector3(14.27, 1.08093, 0.358643)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_78i1q"]
+size = Vector3(0.28772, 1.0614, 14.2744)
+
+[node name="Serre" type="Node3D"]
+script = ExtResource("1_n6gpt")
+
+[node name="Player" parent="." instance=ExtResource("2_2c5ks")]
+transform = Transform3D(-0.610754, 0, 0.791821, 0, 1, 0, -0.791821, 0, -0.610754, 5.64768, 1.04587, -4.98902)
+
+[node name="Floor" type="StaticBody3D" parent="."]
+transform = Transform3D(0.8, 0, 0, 0, 0.8, 0, 0, 0, 0.8, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0303955, -0.0501892, -0.402495)
+shape = SubResource("BoxShape3D_gv5m4")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Floor"]
+transform = Transform3D(18.257, 0, 0, 0, 0.15, 0, 0, 0, 18.257, 0.00913692, 0, -0.322173)
+material_override = SubResource("StandardMaterial3D_nws2k")
+mesh = SubResource("BoxMesh_f3sb7")
+skeleton = NodePath("../CollisionShape3D")
+
+[node name="Environment" type="Node3D" parent="."]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="Environment"]
+environment = SubResource("Environment_bu4uk")
+camera_attributes = SubResource("CameraAttributesPractical_ef0li")
+compositor = SubResource("Compositor_1yk5f")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="Environment"]
+transform = Transform3D(0.543265, 0.839317, -0.0202733, -0.679238, 0.453587, 0.576971, 0.493457, -0.299678, 0.816513, 0, 0, 0)
+shadow_enabled = true
+shadow_blur = 0.8
+
+[node name="Collisions" type="Node3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.575518, -0.247718)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Collisions"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Collisions/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.012476, 0, -6.99471)
+shape = SubResource("BoxShape3D_6acqt")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="Collisions/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.99875, 0.0310059, 0.00610352)
+shape = SubResource("BoxShape3D_ineks")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="Collisions/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0148926, 0.0404663, 6.97031)
+shape = SubResource("BoxShape3D_6uf5e")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="Collisions/StaticBody3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.00325, 0.0307007, -0.00537109)
+shape = SubResource("BoxShape3D_78i1q")
+
+[node name="Objects" type="Node3D" parent="."]
+
+[node name="Barrier" parent="Objects" instance=ExtResource("10_84qj0")]
+transform = Transform3D(1.39997, 0, -0.00867423, 0, 1.4, 0, 0.00867423, 0, 1.39997, 0, 0.552903, -0.275885)
+
+[node name="GodotCube" parent="Objects" instance=ExtResource("9_2c5ks")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.25713, 0.539999, 1.56635)
+
+[node name="ChangeSceneSerre" parent="Objects" instance=ExtResource("7_78i1q")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.27287, 1.07143, 1.55553)
+
+[node name="Serre" parent="Objects" instance=ExtResource("8_hnsl0")]
+transform = Transform3D(0.630432, 0, -0.776245, 0, 1, 0, 0.776245, 0, 0.630432, -1.276, 0.44, 1.01483)

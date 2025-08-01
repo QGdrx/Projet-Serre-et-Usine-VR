@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://daioxouiv650m"]
+
+[ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="1_nsd7n"]
+[ext_resource type="PackedScene" uid="uid://b0a0gd2xs2b15" path="res://Objects/Scenes/menu/canvas_explanation_dehuller.tscn" id="2_nuswh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_le7ln"]
+render_priority = 127
+no_depth_test = true
+shading_mode = 0
+
+[node name="screen_explanation_dehuller" type="Node3D"]
+
+[node name="Viewport2Din3D" parent="." instance=ExtResource("1_nsd7n")]
+screen_size = Vector2(1.92, 1.08)
+scene = ExtResource("2_nuswh")
+viewport_size = Vector2(1920, 1080)
+material = SubResource("StandardMaterial3D_le7ln")

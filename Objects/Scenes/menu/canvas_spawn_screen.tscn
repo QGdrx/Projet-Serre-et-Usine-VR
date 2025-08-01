@@ -1,0 +1,89 @@
+[gd_scene load_steps=2 format=3 uid="uid://bj26eftu75gq"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_qk73m"]
+bg_color = Color(0.18359, 0.18359, 0.18359, 1)
+border_width_left = 5
+border_width_top = 5
+border_width_right = 5
+border_width_bottom = 5
+corner_radius_top_left = 15
+corner_radius_top_right = 15
+corner_radius_bottom_right = 15
+corner_radius_bottom_left = 15
+
+[node name="Spawn_screen" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ColorRect" type="ColorRect" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.18359, 0.18359, 0.18359, 1)
+
+[node name="PanelContainer" type="PanelContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+theme_override_styles/panel = SubResource("StyleBoxFlat_qk73m")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control/PanelContainer"]
+layout_mode = 2
+
+[node name="MarginContainerLabel" type="MarginContainer" parent="Control/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 50
+theme_override_constants/margin_top = 45
+theme_override_constants/margin_right = 50
+theme_override_constants/margin_bottom = 0
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer/MarginContainerLabel"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 105
+text = "Wow, you just displayed a screen !"
+horizontal_alignment = 1
+
+[node name="MarginContainer2" type="MarginContainer" parent="Control/PanelContainer/VBoxContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 100
+theme_override_constants/margin_top = 115
+theme_override_constants/margin_right = 100
+theme_override_constants/margin_bottom = 30
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer/MarginContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 90
+text = "There will be screens containing
+informations in the Factory Space.
+"
+horizontal_alignment = 1
+
+[node name="MarginContainer3" type="MarginContainer" parent="Control/PanelContainer/VBoxContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/margin_left = 55
+theme_override_constants/margin_top = -70
+theme_override_constants/margin_right = 55
+theme_override_constants/margin_bottom = 80
+
+[node name="Label" type="Label" parent="Control/PanelContainer/VBoxContainer/MarginContainer3"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 90
+text = "Don't hesitate to interact with
+other objects !"
+horizontal_alignment = 1

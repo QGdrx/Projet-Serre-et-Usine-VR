@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://cvyiw3wud2dpj"]
+
+[ext_resource type="PackedScene" uid="uid://clujaf3u776a3" path="res://addons/godot-xr-tools/objects/viewport_2d_in_3d.tscn" id="1_qnob3"]
+[ext_resource type="PackedScene" uid="uid://dmw17t873pq8b" path="res://Objects/Scenes/menu/canvas_stone_mill_inner_workings.tscn" id="2_2y5l0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qnob3"]
+cull_mode = 2
+shading_mode = 0
+
+[node name="screen_StoneMill_InnerWorkings" type="Node3D"]
+
+[node name="Viewport2Din3D" parent="." instance=ExtResource("1_qnob3")]
+screen_size = Vector2(1.2, 1.2)
+scene = ExtResource("2_2y5l0")
+viewport_size = Vector2(1024, 1024)
+material = SubResource("StandardMaterial3D_qnob3")

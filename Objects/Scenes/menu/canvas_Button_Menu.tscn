@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://cahewpso70fa0"]
+
+[ext_resource type="Texture2D" uid="uid://sw1uoa44cip0" path="res://Images/Controller_front_FINAL_smaller.png" id="1_i7i60"]
+
+[node name="ButtonMenuCanvas" type="CanvasLayer"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 2664.0
+offset_bottom = 1080.0
+
+[node name="ControllerFrontFinalSmaller" type="Sprite2D" parent="."]
+position = Vector2(1025, 540)
+texture = ExtResource("1_i7i60")
