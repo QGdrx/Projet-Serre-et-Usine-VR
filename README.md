@@ -2,3 +2,5 @@
 Stage de 4ème année d'école d'ingénieur portant sur la création d'une application pour casque Meta Quest 3 contenant 2 environnements VR : une serre et une petite usine.
 
 Réalisation du projet avec les deux logiciels open source Godot et Blender et en binôme avec BENSIDHOUM Nicolas.
+
+Si vous souhaitez simplement tester le projet, télécharger l'APK dans le fichier 'APK'. Cela ne fonctionne qu'avec un casque VR bien entendu.
