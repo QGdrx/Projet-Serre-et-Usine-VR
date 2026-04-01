@@ -4,7 +4,7 @@
             "outputFile": "com.godot.game-mergeStandardDebugResources-17:/values-pl/values-pl.xml",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-pl\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-pl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",

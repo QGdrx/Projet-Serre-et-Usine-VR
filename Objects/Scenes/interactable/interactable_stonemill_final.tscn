@@ -1,4 +1,4 @@
-[gd_scene load_steps=127 format=4 uid="uid://dbnetpxxa46qv"]
+[gd_scene load_steps=126 format=4 uid="uid://dbnetpxxa46qv"]
 
 [ext_resource type="Script" uid="uid://csnnj4435m5wq" path="res://Objects/GDScript/interactable_stone_mill.gd" id="1_b03uo"]
 [ext_resource type="Texture2D" uid="uid://d256bd84twja3" path="res://Objects/Textures/StoneMill_final_final_i_swear/stone_mill_Paint004_1K-JPG_Color.jpg" id="1_qtvab"]
@@ -14,7 +14,6 @@
 [ext_resource type="Texture2D" uid="uid://gjxx254rlsev" path="res://Objects/Textures/StoneMill_final_final_i_swear/stone_mill_Metal020_1K-JPG_Roughness.png" id="11_geh2j"]
 [ext_resource type="Texture2D" uid="uid://dclaxb6pobwio" path="res://Objects/Textures/StoneMill_final_final_i_swear/stone_mill_Metal020_1K-JPG_NormalDX.jpg" id="12_llf2q"]
 [ext_resource type="Texture2D" uid="uid://dr7dsoltbtqjb" path="res://Objects/Textures/StoneMill_final_final_i_swear/stone_mill_Metal010_1K-JPG_Color.jpg" id="13_we35m"]
-[ext_resource type="Texture2D" uid="uid://cpw7pfr6clkqu" path="res://Objects/Textures/StoneMill_final_final_i_swear/stone_mill_Metal010_1K-JPG_Metalness.jpg-Metal010_1K-JPG_Roughness.png" id="14_41ji0"]
 [ext_resource type="Texture2D" uid="uid://bgw7i6pitbkmv" path="res://Objects/Textures/StoneMill_final_final_i_swear/stone_mill_Metal010_1K-JPG_NormalDX.jpg" id="15_3sejv"]
 [ext_resource type="Texture2D" uid="uid://cejjbm462jpuc" path="res://Objects/Textures/Sceaux/Sceau_chia-seeds_3.jpg" id="16_q2c0v"]
 [ext_resource type="Texture2D" uid="uid://ylvtx5w5vldp" path="res://Objects/Textures/Sceaux/Sceau_bas_chia-seeds_3.jpg" id="17_q7740"]
@@ -2005,10 +2004,7 @@ normal_texture = ExtResource("12_llf2q")
 resource_name = "Material.010"
 cull_mode = 2
 albedo_texture = ExtResource("13_we35m")
-metallic = 1.0
-metallic_texture = ExtResource("14_41ji0")
-metallic_texture_channel = 2
-roughness_texture = ExtResource("14_41ji0")
+roughness_texture = ExtResource("11_geh2j")
 roughness_texture_channel = 1
 normal_enabled = true
 normal_texture = ExtResource("15_3sejv")
@@ -2542,13 +2538,13 @@ shading_mode = 0
 resource_local_to_scene = true
 size = Vector2(1.6, 0.9)
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_b03uo"]
+[sub_resource type="ViewportTexture" id="ViewportTexture_8eo2e"]
 viewport_path = NodePath("Viewport")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_b03uo"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_xmdbp"]
 render_priority = 10
 shading_mode = 0
-albedo_texture = SubResource("ViewportTexture_b03uo")
+albedo_texture = SubResource("ViewportTexture_8eo2e")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_ewh7a"]
 resource_local_to_scene = true
@@ -2562,13 +2558,13 @@ shading_mode = 0
 resource_local_to_scene = true
 size = Vector2(1.6, 0.9)
 
-[sub_resource type="ViewportTexture" id="ViewportTexture_efhrp"]
+[sub_resource type="ViewportTexture" id="ViewportTexture_rcho6"]
 viewport_path = NodePath("Viewport")
 
-[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_mme6k"]
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8eo2e"]
 cull_mode = 2
 shading_mode = 0
-albedo_texture = SubResource("ViewportTexture_efhrp")
+albedo_texture = SubResource("ViewportTexture_rcho6")
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_rqnki"]
 resource_local_to_scene = true
@@ -2675,7 +2671,7 @@ mesh = SubResource("ArrayMesh_wdiu5")
 skin = SubResource("Skin_5i0lm")
 
 [node name="BA_Porte" type="BoneAttachment3D" parent="stone_mill/Armature/Skeleton3D_machine"]
-transform = Transform3D(0.0129943, 8.74169e-07, 0.999915, 1.01498e-06, 1, -8.23182e-07, -0.999916, 1.07288e-06, 0.0129944, -1.73695, 0.0108693, 0.00369239)
+transform = Transform3D(0.999888, -7.95057e-08, -0.0149839, 1.3037e-07, 1, -2.87411e-07, 0.014984, 3.45055e-07, 0.999888, -1.73695, 0.0108693, 0.00369239)
 visible = false
 bone_name = "Bone_Porte"
 bone_idx = 2
@@ -2731,7 +2727,7 @@ transform = Transform3D(0.999841, 6.42662e-09, 0.0178538, -6.38253e-09, 1, -2.39
 shape = SubResource("BoxShape3D_llf2q")
 
 [node name="BA_Trappe" type="BoneAttachment3D" parent="stone_mill/Armature/Skeleton3D_machine"]
-transform = Transform3D(0.0036582, 6.83115e-07, 0.999993, 1.02084e-06, 1, -6.22608e-07, -0.999993, 1.0704e-06, 0.00365828, -2.82757, 0.920525, -1.73232)
+transform = Transform3D(0.999984, -7.66427e-08, -0.00564797, 1.31264e-07, 1, -9.51195e-08, 0.00564802, 1.54007e-07, 0.999984, 0.00122571, 0.920523, -1.08347)
 visible = false
 bone_name = "Bone_Trappe"
 bone_idx = 4
@@ -2743,7 +2739,7 @@ transform = Transform3D(1, 0.00293911, -0.000614095, -0.0029392, 0.916349, -0.40
 shape = SubResource("BoxShape3D_we35m")
 
 [node name="BA_Manivelle_Roue" type="BoneAttachment3D" parent="stone_mill/Armature/Skeleton3D_machine"]
-transform = Transform3D(-0.00199012, -0.999998, 8.74163e-07, 1.02767e-06, 8.07881e-07, 1, -0.999998, 0.00199004, 1.07335e-06, -2.00237, -0.669246, -1.71637)
+transform = Transform3D(1, -3.28757e-07, -7.99713e-08, 1.35128e-07, 2.85425e-07, 1, -2.84985e-07, -1, 3.45048e-07, -0.0163604, -0.669247, -0.258309)
 visible = false
 bone_name = "Bone_Manivelle_Roue"
 bone_idx = 3
@@ -2759,7 +2755,7 @@ transform = Transform3D(1, 6.98492e-10, 4.23752e-08, 0, 1, 2.24443e-12, -4.23752
 shape = SubResource("CylinderShape3D_3sejv")
 
 [node name="BA_Manivelle_Porte" type="BoneAttachment3D" parent="stone_mill/Armature/Skeleton3D_machine"]
-transform = Transform3D(0.00014014, 1, 2.23645e-07, 9.83477e-07, -2.17478e-07, 1, 1, -0.000140172, -9.23872e-07, 1.69725, 0.00066781, 0.0126101)
+transform = Transform3D(0.999981, 0.00614326, -1.78688e-07, 1.83238e-07, -6.55651e-07, 1, 0.00614326, -0.999981, -5.96046e-07, 1.69725, 0.00066781, 0.0126101)
 visible = false
 bone_name = "Bone_Manivelle_Porte"
 bone_idx = 6
@@ -2864,7 +2860,7 @@ transform = Transform3D(1, -2.63454e-15, 0, -1.04369e-15, 1, 0, 0, 0, 1, 2.54912
 shape = SubResource("BoxShape3D_8drju")
 
 [node name="BA_Roue_Translate" type="BoneAttachment3D" parent="stone_mill/Armature/Skeleton3D_machine"]
-transform = Transform3D(0.0129943, 7.03361e-07, 0.999915, 1.01498e-06, 1, -6.5236e-07, -0.999916, 1.07066e-06, 0.0129944, -1.74039, -0.0245941, -1.7265)
+transform = Transform3D(0.999888, -7.69461e-08, -0.0149839, 1.3037e-07, 1, -1.16589e-07, 0.014984, 1.74252e-07, 0.999888, -0.00675499, -0.0245956, 0.00369204)
 visible = false
 bone_name = "Bone_Roue_Translate"
 bone_idx = 5
@@ -3058,7 +3054,7 @@ size = Vector2i(1920, 1080)
 [node name="Screen" parent="Viewport2Din3D" index="1"]
 transform = Transform3D(1, 0, 7.10543e-15, 0, 1, 0, -7.10543e-15, 0, 1, 0, 0, 0)
 mesh = SubResource("QuadMesh_we35m")
-surface_material_override/0 = SubResource("StandardMaterial3D_b03uo")
+surface_material_override/0 = SubResource("StandardMaterial3D_xmdbp")
 
 [node name="StaticBody3D" parent="Viewport2Din3D" index="2"]
 screen_size = Vector2(1.6, 0.9)
@@ -3081,7 +3077,7 @@ size = Vector2i(1920, 1080)
 
 [node name="Screen" parent="Viewport2Din3D2" index="1"]
 mesh = SubResource("QuadMesh_j8vlu")
-surface_material_override/0 = SubResource("StandardMaterial3D_mme6k")
+surface_material_override/0 = SubResource("StandardMaterial3D_8eo2e")
 
 [node name="StaticBody3D" parent="Viewport2Din3D2" index="2"]
 screen_size = Vector2(1.6, 0.9)

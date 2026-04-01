@@ -157,7 +157,7 @@
                     }
                 },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-ca\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-ca\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -239,7 +239,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-lv_values-lv.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-lv\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-lv\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -278,6 +278,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-uk_values-uk.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-uk\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-uk\\values-uk.xml",
                     "from": {
                         "startLines": "2",
@@ -292,23 +309,6 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
-                    }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-uk\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
                     }
                 }
             ]
@@ -362,7 +362,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-da_values-da.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-da\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-da\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -401,7 +401,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-hu_values-hu.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-hu\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-hu\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -472,7 +472,7 @@
                     }
                 },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-sr\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-sr\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -509,6 +509,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-zh-rHK_values-zh-rHK.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-zh-rHK\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-zh-rHK\\values-zh-rHK.xml",
                     "from": {
                         "startLines": "2",
@@ -523,23 +540,6 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
-                    }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-zh-rHK\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
                     }
                 }
             ]
@@ -594,7 +594,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-es_values-es.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-es\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-es\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -633,6 +633,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-bg_values-bg.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-bg\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-bg\\values-bg.xml",
                     "from": {
                         "startLines": "2",
@@ -647,23 +664,6 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
-                    }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-bg\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
                     }
                 }
             ]
@@ -702,23 +702,6 @@
             "outputFile": "com.godot.game-merged_res-19:/values-sv_values-sv.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-sv\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
-                },
-                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2",
@@ -733,6 +716,23 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
+                    }
+                },
+                {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-sv\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
                     }
                 }
             ]
@@ -756,7 +756,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-en_values-en.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-en\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-en\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -793,6 +793,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-ar_values-ar.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-ar\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-ar\\values-ar.xml",
                     "from": {
                         "startLines": "2",
@@ -808,23 +825,6 @@
                         "endColumns": "100",
                         "endOffsets": "226"
                     }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-ar\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
                 }
             ]
         },
@@ -832,7 +832,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-ro_values-ro.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-ro\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-ro\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -946,6 +946,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-it_values-it.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-it\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-it\\values-it.xml",
                     "from": {
                         "startLines": "2",
@@ -960,23 +977,6 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
-                    }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-it\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
                     }
                 }
             ]
@@ -1031,6 +1031,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-cs_values-cs.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-cs\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-cs\\values-cs.xml",
                     "from": {
                         "startLines": "2",
@@ -1045,23 +1062,6 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
-                    }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-cs\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
                     }
                 }
             ]
@@ -1105,23 +1105,6 @@
                         "endLines": "3,4,5,6,7,8,40,41,42,43,44,45,46,109,152,153,154,156,158,209,222,226",
                         "endColumns": "59,58,68,71,62,71,73,75,75,76,70,68,70,67,80,91,92,12,12,12,12,12",
                         "endOffsets": "170,229,298,370,433,505,2593,2669,2745,2822,2893,2962,3033,6636,10247,10339,10432,10541,10662,13242,14017,14290"
-                    }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "115",
-                        "startColumns": "4",
-                        "startOffsets": "7076",
-                        "endColumns": "74",
-                        "endOffsets": "7146"
                     }
                 },
                 {
@@ -1214,24 +1197,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\29441c4b9970a8bec5ae4c6584bf1466\\transformed\\lifecycle-viewmodel-2.6.1\\res\\values\\values.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values\\godot_project_name_string.xml",
                     "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "49",
-                        "endOffsets": "100"
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
                     },
                     "to": {
-                        "startLines": "107",
+                        "startLines": "115",
                         "startColumns": "4",
-                        "startOffsets": "6459",
-                        "endColumns": "49",
-                        "endOffsets": "6504"
+                        "startOffsets": "7076",
+                        "endColumns": "74",
+                        "endOffsets": "7146"
                     }
                 },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values\\themes.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values\\themes.xml",
                     "from": {
                         "startLines": "3,8",
                         "startColumns": "1,1",
@@ -1247,6 +1230,23 @@
                         "endLines": "165,175",
                         "endColumns": "9,9",
                         "endOffsets": "11017,11334"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\29441c4b9970a8bec5ae4c6584bf1466\\transformed\\lifecycle-viewmodel-2.6.1\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "49",
+                        "endOffsets": "100"
+                    },
+                    "to": {
+                        "startLines": "107",
+                        "startColumns": "4",
+                        "startOffsets": "6459",
+                        "endColumns": "49",
+                        "endOffsets": "6504"
                     }
                 },
                 {
@@ -1318,23 +1318,6 @@
             "outputFile": "com.godot.game-merged_res-19:/values-sl_values-sl.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-sl\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
-                },
-                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-sl\\values-sl.xml",
                     "from": {
                         "startLines": "2",
@@ -1350,14 +1333,9 @@
                         "endColumns": "100",
                         "endOffsets": "226"
                     }
-                }
-            ]
-        },
-        {
-            "outputFile": "com.godot.game-merged_res-19:/values-ja_values-ja.arsc.flat",
-            "map": [
+                },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-ja\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-sl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1372,7 +1350,12 @@
                         "endColumns": "74",
                         "endOffsets": "125"
                     }
-                },
+                }
+            ]
+        },
+        {
+            "outputFile": "com.godot.game-merged_res-19:/values-ja_values-ja.arsc.flat",
+            "map": [
                 {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-ja\\values-ja.xml",
                     "from": {
@@ -1388,6 +1371,23 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
+                    }
+                },
+                {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-ja\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
                     }
                 }
             ]
@@ -1413,7 +1413,7 @@
                     }
                 },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-fi\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-fi\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1465,23 +1465,6 @@
             "outputFile": "com.godot.game-merged_res-19:/values-fr_values-fr.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-fr\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
-                },
-                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-fr\\values-fr.xml",
                     "from": {
                         "startLines": "2",
@@ -1497,6 +1480,23 @@
                         "endColumns": "100",
                         "endOffsets": "226"
                     }
+                },
+                {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-fr\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
                 }
             ]
         },
@@ -1504,7 +1504,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-nb_values-nb.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-nb\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-nb\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1560,7 +1560,7 @@
                     }
                 },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-tl\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-tl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1599,7 +1599,7 @@
                     }
                 },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-ru\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-ru\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1621,23 +1621,6 @@
             "outputFile": "com.godot.game-merged_res-19:/values-th_values-th.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-th\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
-                },
-                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-th\\values-th.xml",
                     "from": {
                         "startLines": "2",
@@ -1652,6 +1635,23 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
+                    }
+                },
+                {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-th\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
                     }
                 }
             ]
@@ -1709,7 +1709,7 @@
                     }
                 },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-ko\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-ko\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1731,7 +1731,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-hr_values-hr.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-hr\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-hr\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1770,6 +1770,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-iw_values-iw.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-iw\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-iw\\values-iw.xml",
                     "from": {
                         "startLines": "2",
@@ -1784,23 +1801,6 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
-                    }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-iw\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
                     }
                 }
             ]
@@ -1854,7 +1854,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-zh-rTW_values-zh-rTW.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-zh-rTW\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-zh-rTW\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1893,7 +1893,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-in_values-in.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-in\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-in\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1932,7 +1932,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-sk_values-sk.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-sk\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-sk\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -1971,23 +1971,6 @@
             "outputFile": "com.godot.game-merged_res-19:/values-vi_values-vi.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-vi\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
-                },
-                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-vi\\values-vi.xml",
                     "from": {
                         "startLines": "2",
@@ -2002,6 +1985,23 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
+                    }
+                },
+                {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-vi\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
                     }
                 }
             ]
@@ -2027,7 +2027,7 @@
                     }
                 },
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-pt\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-pt\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2049,23 +2049,6 @@
             "outputFile": "com.godot.game-merged_res-19:/values-hi_values-hi.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-hi\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
-                },
-                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-hi\\values-hi.xml",
                     "from": {
                         "startLines": "2",
@@ -2080,6 +2063,23 @@
                         "startOffsets": "130",
                         "endColumns": "100",
                         "endOffsets": "226"
+                    }
+                },
+                {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-hi\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
                     }
                 }
             ]
@@ -2118,7 +2118,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-nl_values-nl.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-nl\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-nl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2172,23 +2172,6 @@
             "outputFile": "com.godot.game-merged_res-19:/values-de_values-de.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-de\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
-                },
-                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2",
@@ -2204,6 +2187,23 @@
                         "endColumns": "100",
                         "endOffsets": "226"
                     }
+                },
+                {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-de\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
                 }
             ]
         },
@@ -2211,7 +2211,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-tr_values-tr.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-tr\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-tr\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2280,6 +2280,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-fa_values-fa.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-fa\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\557098fd50d46da4c61161d63799a140\\transformed\\jetified-godot-lib.template_debug\\res\\values-fa\\values-fa.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12",
@@ -2294,23 +2311,6 @@
                         "startOffsets": "231,285,359,417,477,546,616,794,967,1069,1148",
                         "endColumns": "53,73,57,59,68,69,177,172,101,78,70",
                         "endOffsets": "280,354,412,472,541,611,789,962,1064,1143,1214"
-                    }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-fa\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
                     }
                 },
                 {
@@ -2336,6 +2336,23 @@
             "outputFile": "com.godot.game-merged_res-19:/values-lt_values-lt.arsc.flat",
             "map": [
                 {
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-lt\\godot_project_name_string.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "1",
+                        "startOffsets": "112",
+                        "endColumns": "71",
+                        "endOffsets": "182"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "74",
+                        "endOffsets": "125"
+                    }
+                },
+                {
                     "source": "C:\\Users\\quent\\.gradle\\caches\\transforms-3\\245f1aa0863a677574781ac0a1900f6e\\transformed\\core-1.8.0\\res\\values-lt\\values-lt.xml",
                     "from": {
                         "startLines": "2",
@@ -2351,23 +2368,6 @@
                         "endColumns": "100",
                         "endOffsets": "226"
                     }
-                },
-                {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-lt\\godot_project_name_string.xml",
-                    "from": {
-                        "startLines": "3",
-                        "startColumns": "1",
-                        "startOffsets": "112",
-                        "endColumns": "71",
-                        "endOffsets": "182"
-                    },
-                    "to": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "74",
-                        "endOffsets": "125"
-                    }
                 }
             ]
         },
@@ -2375,7 +2375,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-zh_values-zh.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-zh\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-zh\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2442,7 +2442,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-pl_values-pl.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-pl\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-pl\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2511,7 +2511,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-es-rES_values-es-rES.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-es-rES\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-es-rES\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",
@@ -2548,7 +2548,7 @@
             "outputFile": "com.godot.game-merged_res-19:/values-el_values-el.arsc.flat",
             "map": [
                 {
-                    "source": "D:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\res\\values-el\\godot_project_name_string.xml",
+                    "source": "D:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\res\\values-el\\godot_project_name_string.xml",
                     "from": {
                         "startLines": "3",
                         "startColumns": "1",

@@ -11,38 +11,38 @@
 11        android:targetSdkVersion="34" />
 12
 13    <supports-screens
-13-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:8:5-12:40
+13-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:8:5-12:40
 14        android:largeScreens="true"
-14-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:11:9-36
+14-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:11:9-36
 15        android:normalScreens="true"
-15-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:10:9-37
+15-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:10:9-37
 16        android:smallScreens="true"
-16-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:9:9-36
+16-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:9:9-36
 17        android:xlargeScreens="true" />
-17-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:12:9-37
+17-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:12:9-37
 18
 19    <uses-feature
-19-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:14:5-16:35
+19-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:14:5-16:35
 20        android:glEsVersion="0x00030000"
-20-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:15:9-41
+20-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:15:9-41
 21        android:required="true" />
-21-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:16:9-32
+21-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:16:9-32
 22    <uses-feature
-22-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:11:5-132
+22-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:11:5-132
 23        android:name="android.hardware.vulkan.level"
-23-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:11:40-84
+23-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:11:40-84
 24        android:required="false"
-24-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:11:85-109
+24-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:11:85-109
 25        android:version="1" />
-25-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:11:110-129
+25-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:11:110-129
 26    <uses-feature
-26-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:12:5-140
+26-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:12:5-140
 27        android:name="android.hardware.vulkan.version"
-27-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:12:40-86
+27-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:12:40-86
 28        android:required="true"
-28-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:12:87-110
+28-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:12:87-110
 29        android:version="0x400003" />
-29-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:12:111-137
+29-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:12:111-137
 30
 31    <horizonos:uses-horizonos-sdk
 31-->[godotopenxr-meta-debug.aar] C:\Users\quent\.gradle\caches\transforms-3\c086c46be05abd801ba5176a287f558a\transformed\jetified-godotopenxr-meta-debug\AndroidManifest.xml:8:5-10:43
@@ -89,102 +89,102 @@
 53-->[godotopenxr-meta-debug.aar] C:\Users\quent\.gradle\caches\transforms-3\c086c46be05abd801ba5176a287f558a\transformed\jetified-godotopenxr-meta-debug\AndroidManifest.xml:32:9-28
 54
 55    <application
-55-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:18:5-60:19
+55-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:18:5-60:19
 56        android:allowBackup="false"
-56-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:20:9-36
+56-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:20:9-36
 57        android:appCategory="game"
-57-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:22:9-35
+57-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:22:9-35
 58        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 58-->[androidx.core:core:1.8.0] C:\Users\quent\.gradle\caches\transforms-3\245f1aa0863a677574781ac0a1900f6e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
 59        android:debuggable="true"
 60        android:extractNativeLibs="false"
 61        android:hasFragileUserData="false"
-61-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:24:9-43
+61-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:24:9-43
 62        android:icon="@mipmap/icon"
-62-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:21:9-36
+62-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:21:9-36
 63        android:isGame="true"
-63-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:23:9-30
+63-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:23:9-30
 64        android:label="@string/godot_project_name_string"
-64-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:19:9-58
+64-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:19:9-58
 65        android:requestLegacyExternalStorage="false" >
-65-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:25:9-53
+65-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:25:9-53
 66        <meta-data
-66-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:23:9-125
+66-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:23:9-125
 67            android:name="com.oculus.supportedDevices"
-67-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:23:41-83
+67-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:23:41-83
 68            android:value="quest2|quest3|questpro" />
-68-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:23:84-122
+68-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:23:84-122
 69
 70        <activity
-70-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:41:9-58:20
+70-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:41:9-58:20
 71            android:name="com.godot.game.GodotApp"
-71-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:42:13-37
+71-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:42:13-37
 72            android:configChanges="layoutDirection|locale|orientation|keyboardHidden|screenSize|smallestScreenSize|density|keyboard|navigation|screenLayout|uiMode"
-72-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:49:13-164
+72-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:49:13-164
 73            android:excludeFromRecents="false"
-73-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:46:13-47
+73-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:46:13-47
 74            android:exported="true"
-74-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:47:13-36
+74-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:47:13-36
 75            android:label="@string/godot_project_name_string"
-75-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:43:13-62
+75-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:43:13-62
 76            android:launchMode="singleInstancePerTask"
-76-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:45:13-55
+76-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:45:13-55
 77            android:resizeableActivity="true"
-77-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:50:13-47
+77-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:50:13-47
 78            android:screenOrientation="landscape"
-78-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:48:13-50
+78-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:48:13-50
 79            android:theme="@style/GodotAppSplashTheme" >
-79-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:44:13-55
+79-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:44:13-55
 80            <intent-filter>
-80-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:53:13-57:29
+80-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:53:13-57:29
 81                <action android:name="android.intent.action.MAIN" />
-81-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:54:17-69
-81-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:54:25-66
+81-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:54:17-69
+81-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:54:25-66
 82
 83                <category android:name="android.intent.category.DEFAULT" />
-83-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:55:17-76
-83-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:55:27-73
+83-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:55:17-76
+83-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:55:27-73
 84                <category android:name="android.intent.category.LAUNCHER" />
-84-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:56:17-77
-84-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:56:27-74
+84-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:56:17-77
+84-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:56:27-74
 85            </intent-filter>
 86            <intent-filter>
-86-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:32:5-47:21
+86-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:32:5-47:21
 87                <action android:name="android.intent.action.MAIN" />
-87-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:54:17-69
-87-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:54:25-66
+87-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:54:17-69
+87-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:54:25-66
 88
 89                <category android:name="android.intent.category.DEFAULT" />
-89-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:55:17-76
-89-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:55:27-73
+89-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:55:17-76
+89-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:55:27-73
 90
 91                <!--
 92                    Enable access to OpenXR on Oculus mobile devices, no-op on other Android
 93					platforms.
 94                -->
 95                <category android:name="com.oculus.intent.category.VR" />
-95-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:39:6-63
-95-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:39:16-60
+95-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:39:6-63
+95-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:39:16-60
 96
 97                <!--
 98                    OpenXR category tag to indicate the activity starts in an immersive OpenXR mode.
 99					See https://registry.khronos.org/OpenXR/specs/1.0/html/xrspec.html#android-runtime-category.
 100                -->
 101                <category android:name="org.khronos.openxr.intent.category.IMMERSIVE_HMD" />
-101-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:43:6-82
-101-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\src\debug\AndroidManifest.xml:43:16-79
+101-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:43:6-82
+101-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\src\debug\AndroidManifest.xml:43:16-79
 102                <category android:name="android.intent.category.LAUNCHER" />
-102-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:56:17-77
-102-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:56:27-74
+102-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:56:17-77
+102-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:56:27-74
 103            </intent-filter>
 104        </activity>
 105
 106        <profileable
-106-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:27:9-30:36
+106-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:27:9-30:36
 107            android:enabled="true"
-107-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:29:13-35
+107-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:29:13-35
 108            android:shell="true" /> <!-- Records the version of the Godot editor used for building -->
-108-->D:\GameDev\StageVR\Test\temp\nouveau-projet-de-jeu\android\build\AndroidManifest.xml:28:13-33
+108-->D:\GameDev\Projet-Serre-et-Usine-VR\android\build\AndroidManifest.xml:28:13-33
 109        <meta-data
 110            android:name="org.godotengine.editor.version"
 111            android:value="4.4.1.stable" /> <!-- Records the rendering method used by the Godot engine -->

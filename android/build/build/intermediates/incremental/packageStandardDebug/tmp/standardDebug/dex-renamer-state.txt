@@ -1,9 +1,9 @@
-#Fri Jul 25 16:00:06 CEST 2025
-base.2=D\:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\build\\intermediates\\dex\\standardDebug\\mergeProjectDexStandardDebug\\6\\classes.dex
+#Wed Apr 01 16:28:01 CEST 2026
+base.2=D\:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\build\\intermediates\\dex\\standardDebug\\mergeProjectDexStandardDebug\\6\\classes.dex
 path.2=6/classes.dex
-base.1=D\:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\build\\intermediates\\dex\\standardDebug\\mergeProjectDexStandardDebug\\0\\classes.dex
+base.1=D\:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\build\\intermediates\\dex\\standardDebug\\mergeProjectDexStandardDebug\\0\\classes.dex
 path.1=0/classes.dex
-base.0=D\:\\GameDev\\StageVR\\Test\\temp\\nouveau-projet-de-jeu\\android\\build\\build\\intermediates\\dex\\standardDebug\\mergeExtDexStandardDebug\\classes.dex
+base.0=D\:\\GameDev\\Projet-Serre-et-Usine-VR\\android\\build\\build\\intermediates\\dex\\standardDebug\\mergeExtDexStandardDebug\\classes.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
 renamed.0=classes.dex

@@ -1,7 +1,7 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1754036193
+::res://::1775045787
 export_presets.cfg::TextFile/TextFile::-1::1753777545::0::1::::<><><>0<>0<><>::
-README.md::TextFile::-1::1754036143::0::1::::<><><>0<>0<><>::
+README.md::TextFile/TextFile::-1::1754036143::0::1::::<><><>0<>0<><>::
 ::res://addons/::1750323205
 ::res://addons/godot-xr-tools/::1749626140
 CONTRIBUTORS.md::TextFile/TextFile::-1::1749626137::0::1::::<><><>0<>0<><>::
@@ -412,6 +412,8 @@ plugin.gdextension::GDExtension/GDExtension::1463254363320245019::1750323205::0:
 ::res://addons/godotopenxrvendors/pico/::1750323205
 ::res://android/::1751615176
 ::res://APK/::1754035711
+::res://Documentations/::1754037536
+::res://Guides/::1754037571
 ::res://Images/::1753338368
 Controller_front_FINAL_smaller.png::CompressedTexture2D/CompressedTexture2D::1310430590447295415::1751958523::1752755153::1::::<><><>0<>0<>88f7af95ccf73c2b8a46bb5e571c8398<>res://.godot/imported/Controller_front_FINAL_smaller.png-110236ae7130d7175bd4a30fe7f773d7.ctex::
 GodotTest.png::CompressedTexture2D/CompressedTexture2D::4939071773793710088::1750840774::1752755153::1::::<><><>0<>0<>d2efdaa35f5425c34fce3980c43ca078<>res://.godot/imported/GodotTest.png-58ca60f805335e7001458bec4924294c.s3tc.ctex<*>res://.godot/imported/GodotTest.png-58ca60f805335e7001458bec4924294c.etc2.ctex::
